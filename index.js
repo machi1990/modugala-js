@@ -20,7 +20,7 @@ Module.prototype.require = function(modulePath) {
       return nativeRequire.call(this, moduleLocation);
     return nativeRequire.call(
       this,
-      path.join(moduleLocation, modulePathParts.slice(1).join("/"))
+      path.join(moduleLocation, modulePathParts.slice(1).join(path.sep))
     );
   }
 
