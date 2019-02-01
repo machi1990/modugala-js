@@ -6,8 +6,9 @@ A simple way to alias a module in NodeJS.
 
 ## Install
 
-`npm`: run the command `npm install modulegala`
-`yarn`: run the command `yarn add modulegala`
+`npm`: run the command `npm install modulegala-js`
+
+`yarn`: run the command `yarn add modulegala-js`
 
 # Usage
 
@@ -24,7 +25,7 @@ Loads the module in the entrypoint file your application.
 ```
 
 - To register the aliasing system, copy the following line and paste it in your application's root file.
-  `require('modulegala');`
+  `require('modulegala-js');`
 
 ### Contributor
 
